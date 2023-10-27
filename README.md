@@ -20,7 +20,7 @@ Utilizar herramientas de hacking para analizar e investigar como diferentes ataq
  1. Tener el software de flipper al dia.
  2. Descargar la herramienta de [esptool.py](https://github.com/espressif/esptool)
  3. Utilizar el comando `esptool.py -p PUERTO write_flash -fm dout 0x0000 PATH/deauther.py` reemplazando PUERTO por el puerto al que esta conectado el esp8266, y PATH/deauther.py con la ubicacion del archivo descargado dentro de la carpeta deauther.
- 4. Conectar el pin VIN nodemcu del nodemcu con el 5V del flipper zero, y el GND del nodemcu con el GND del flipper
+ 4. Conectar el pin VIN del nodemcu con el 5V del flipper zero, y el GND del nodemcu con el GND del flipper
  
 # Lista de Herramientas
 
