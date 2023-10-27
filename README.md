@@ -1,6 +1,7 @@
 # **Al Capone tools**
 
 ![enter image description here](https://i.ibb.co/F599KXj/image-8.png)
+
 Al Capone tools es un conjunto de scripts diseñados para el análisis de cómo funciona el robo de información y vulnerabilidades de las redes WiFi. Al Capone tools se compone tanto de scripts de Rubber Ducky para ejecutar comandos en el sistema a atacar, como scripts encargados de actuar como un servidor web donde la información robada es almacenada. Externamente cuenta con un módulo esp8266 que sustituye al costoso módulo oficial para auditar redes WiFi utilizando el Flipper Zero. Actualmente se enfoca en el sistema operativo Windows.
 
 # Nuestro objetivo
