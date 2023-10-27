@@ -56,12 +56,13 @@ Por medio de la funcionalidad HID del flipper zero, Al Capone tools cuenta con s
 Por medio de la funcionalidad NFC del flipper zero, Al Capone tools cuenta con un script que genera una señal nfc que abre un sitio web de phishing. Siendo esta tercera herramienta más fácil de  detectar que las anteriores, más esta es compatible con dispositivos móviles como Iphones y Androids.
 
 
-![enter image description here](https://i.ibb.co/b6cnCYL/BadUsb3.png)
+
+![enter image description here](https://i.ibb.co/LZmdHF8/BadUsb2.png)
+
 
 
 ### Space Hun Deauther
 Space Hun Deauther es una herramienta para auditar redes WiFi en diferentes ataques inalambricos. Para lograr integrar de manera accesible esta herramienta al flipper zero, se utilizo un modulo nodemcu esp8266 conectado a traves de los GPIO del flipper zero para conseguir por medio de un add on accesible y facil de conseguir y fabricar, anadir una funcionalidad WiFi al dispositivo de flipper zero.
 
 
-![enter image description here](https://i.ibb.co/LZmdHF8/BadUsb2.png)
-
+![enter image description here](https://i.ibb.co/b6cnCYL/BadUsb3.png)
